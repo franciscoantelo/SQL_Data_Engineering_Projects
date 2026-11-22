@@ -6,7 +6,7 @@ DESCRIBE job_postings_fact;
 
 
 
-SELECT job_id
+SELECT DISTINCT job_id
 FROM skills_job_dim
 ORDER BY job_id
 LIMIT 20;
