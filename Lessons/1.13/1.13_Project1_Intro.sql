@@ -14,5 +14,6 @@ LIMIT 20;
 SELECT job_id
 FROM job_postings_fact
 ORDER BY job_id
-LIMIT 20;
+LIMIT 20
 
+-- git test
